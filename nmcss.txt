@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* HEADER */
+.wiki-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.site-title h1 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.site-title span {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* SEARCH BAR */
+.search-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-section input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 300px;
+}
+
+.search-section button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.search-section button:hover {
+    background-color: #e2e2e2;
+}
+
+/* HEADER RIGHT LINKS */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #0645ad;
+    font-size: 0.95rem;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+.dots {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* LAYOUT */
+.page-layout {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* SIDEBARS */
+.sidebar-left,
+.sidebar-right {
+    width: 200px;
+    background-color: #f0f0e9;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.sidebar-left {
+    margin-right: 20px;
+}
+
+.sidebar-right {
+    margin-left: 20px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.sidebar-left h2,
+.sidebar-right h3 {
+    margin-top: 0;
+}
+
+.sidebar-left ul,
+.sidebar-right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-left li,
+.sidebar-right li {
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.sidebar-left li:hover,
+.sidebar-right li:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.wiki-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #a2a9b1;
+    font-size: 12px;
+    color: #202122;
+    padding: 15px 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer-links {
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.footer-links a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav {
+    margin-top: 10px;
+}
+
+.footer-nav a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
